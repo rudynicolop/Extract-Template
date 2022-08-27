@@ -1,3 +1,10 @@
+# Build artifacts
+_build/
+*.exe
+coqrecon.install
+.merlin
+
+# Coq files
 .*.aux
 .*.d
 *.a

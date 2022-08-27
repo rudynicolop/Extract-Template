@@ -1,0 +1,9 @@
+(coq.extraction
+	(prelude Extract)
+	(extracted_modules Datatypes Victor)
+	(theories MyVector))
+(library
+	(name vic)
+	(public_name vic)
+	(libraries zarith)
+	(flags (:standard -w -33)))

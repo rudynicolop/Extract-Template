@@ -1,0 +1,6 @@
+(coq.theory
+ (name MyVector)
+ (package vic)
+ (synopsis "My vectors")
+ (modules (:standard)))
+(include_subdirs qualified)

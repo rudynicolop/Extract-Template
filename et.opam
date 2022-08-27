@@ -1,0 +1,20 @@
+opam-version: "2.0"
+version: "0.1.0"
+synopsis: "Template for coq extraction and dune"
+maintainer: "rnp39@cornell.edu"
+authors: ["Rudy Nicolo Peterson <rnp39@cornell.edu>"]
+homepage: "https://github.com/rudynicolop/Extract-Template"
+dev-repo: "git+https://github.com/rudynicolop/Extract-Template"
+bug-reports: "https://github.com/rudynicolop/Extract-Template/issues"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+install: [
+  ["dune" "install"]
+]
+depends: [
+  "dune"
+  "ocaml"
+  "vic"
+  "zarith"
+]
